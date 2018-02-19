@@ -1,0 +1,481 @@
+
+@import 'font';
+@import 'colours';
+
+//General
+
+.btn-primary:hover {
+    background-color: $text-color3;
+    color: $text-color;
+    cursor: pointer;
+}
+
+a:hover {
+    cursor: pointer;
+}
+
+//Home section
+
+.home-section {
+    background-color: $primary-color;
+    height: 770px;
+}
+
+.homefront {
+    position: relative;
+    padding-bottom: 200px;
+}
+
+.homeback {
+    position: absolute;
+    width: 100%;
+}
+
+.navbar-brand {
+    img {
+        margin-top: 47px;
+    }
+}
+
+ .navbar .collapse {
+    margin-top: 30px;
+    position: absolute;
+}
+
+.nav-link {
+    color: $text-color;
+    font-family: $primary-font;
+    font-size: 12.6px;
+    font-weight: 400;
+}
+
+.nav-link {
+    p {
+        padding-top:10px;
+    }
+}
+
+.nav-item {
+    margin-right: 39px;
+}
+
+.nav-link .btn-primary {
+    color: $text-color2;
+    font-family: $primary-font;
+    font-size: 12.6px;
+    font-weight: 400;
+    background-color: $primary-color;
+    border: $text-color2 solid 0.5px;
+    border-radius: 50px;
+    width: 91px;
+    height: 34px;
+}
+
+.home-text {
+    .home-heading {
+        color: $text-color;
+        font-family: $primary-font;
+        font-weight: 100; //Thin
+        font-size: 42px;
+        padding-top: 70px;
+    }
+    
+    .home-subheading {
+        color: $text-color3;
+        font-family: $primary-font;
+        font-weight: 400; //Reg
+        font-size: 25.2px;
+    }
+
+    button {
+        width: 143px;
+        height: 33px;
+        background-color: $text-color2;
+        color: $text-color;
+        border-radius: 50px;
+        font-size: 12.6px;
+        font-family: $primary-font;
+        font-weight: 700;
+        margin-top: 35px;
+        margin-bottom: 60px;
+    }
+}
+
+.dash-img1 {
+    box-shadow: 0px 0px 60px 1px #274790;
+}
+//Icon section
+
+.icon-section {
+    background-color: $text-color;
+    padding-top: 200px;
+    padding-bottom: 100px;
+}
+
+.icon-section {
+    h2 {
+        font-family: $primary-font;
+        font-weight: 700;
+        color: $primary-color;
+        font-size: 16.8px;
+        padding-top: 38px;
+    }
+
+    p {
+        font-family: $primary-font;
+        font-weight: 400;
+        color: $text-color3;
+        font-size: 12.6px; 
+        padding-top: 20px;
+    }
+
+    button {
+        width: 176px;
+        height: 34px;
+        font-family: $primary-font;
+        font-weight: 700;
+        font-size: 12.6px;
+        border-radius: 50px;
+        background-color: $text-color;
+        border: 0.5px solid $text-color3;
+        color: $primary-color;
+        margin-top: 36px;
+    }
+
+}
+
+//Drag and drop section
+
+.drag-section {
+    background-color: $primary-color;
+    padding-top: 118px;
+    padding-bottom: 127px;
+}
+
+.dragback {
+    img {
+        position: absolute;
+        width: 100%; 
+        height: 520px;
+        margin-top: -108px;
+    }
+}
+
+.dragfront {
+    position: relative;
+}
+
+.dragfront {
+    h2 {
+        font-family: $primary-font;
+        font-weight: 500;
+        font-size: 21.41px; 
+        color: $text-color; 
+        padding-bottom: 20px;
+    }
+
+    .span3 {
+        color: $text-color3;
+    }
+
+    .spans {
+        color: black;
+    }
+
+    span {
+        color: $text-color3;
+    }
+
+    .spanarrow {
+        padding-left: 95px;
+        color: $text-color3;
+        font-size: 30px;
+    }
+
+    h3 {
+        font-family: $primary-font;
+        font-weight: 100;
+        font-size: 42px; 
+        color: $text-color; 
+    }
+
+    p {
+        font-family: $primary-font;
+        font-weight: 400;
+        font-size: 12.6px; 
+        color: $text-color3;  
+    }
+
+    .draggrid {
+        margin-bottom: 20px;
+        // padding-right: 35px;
+    }
+
+    .drag-drop-text {
+        padding-left: 160px;
+    }
+
+    .drop-here {
+        font-family: $primary-font;
+        font-weight: 500;
+        font-size: 14px; 
+        color: $text-color3; 
+        text-align: center;
+    }
+
+    .fa-caret-left, .fa-caret-right:hover {
+        cursor: pointer;
+    }
+
+    .fa-caret-left, .fa-caret-right {
+        color: $text-color3;
+        font-size: 20px;
+        border: 0.5px solid $text-color3;
+        border-radius: 50px;
+        width: 25px;
+        height: 25px;
+        padding: 4px;
+        margin-top: 40px;
+    }
+
+    .fa-caret-left {
+        margin-left: 180px;
+    }
+
+    .fa-caret-right {
+        margin-left: 13px;
+    }
+
+    .drag-img {
+        padding-left: 30px;
+    }
+
+    .drag-col2 {
+        // padding-left: 35px;
+    }
+
+    .draggrid:hover {
+        cursor: pointer;
+    }
+
+    .dotted-drop {
+        border: $text-color3 dotted 1px;
+        padding-top: 20px;
+        margin-left: -15px;
+        margin-bottom: 42px;
+        margin-top: -19px;
+    }
+}
+
+//Template section
+
+.template-section {
+    padding-top: 72px;
+    background-color: $secondary-color;
+    background-image: url("template_02.png");
+    background-repeat: no-repeat;
+    background-position: center 5%;
+    overflow: auto; //?
+}
+
+.template-section {
+
+    h3 {
+        font-family: $primary-font;
+        font-weight: 100;
+        font-size: 42px; 
+        color: $primary-color; 
+        padding-bottom: 30px;
+    }
+
+    .temp-text1 {
+        font-family: $primary-font;
+        font-weight: 400;
+        font-size: 12.6px; 
+        color: $text-color3; 
+        padding-bottom: 79px;
+        padding-left: 140px;
+        padding-right: 140px;
+    }
+
+    h4 {
+        font-family: $primary-font;
+        font-weight: 700;
+        font-size: 16.8px; 
+        color: $primary-color;  
+        border-bottom: solid 1.5px $text-color2;
+        padding-bottom: 10px;
+    }
+
+    p {
+        font-family: $primary-font;
+        font-weight: 400;
+        font-size: 12.6px; 
+        color: $text-color3; 
+        padding-top: 15px; 
+    }
+
+    .temp-text2 {
+        padding-right: 333px;
+    }
+
+    .temp-text3 {
+        padding-left: 333px;
+        padding-bottom: 180px;
+    }
+
+    .text-right {
+        padding-top: 78px;
+    }
+
+    .temp-head2 {
+        margin-right: 40px;
+    }
+
+    .temp-head3 {
+        margin-left: 26px;
+    }
+
+    .tempdot1 {
+        position: absolute;
+        top: 11px;
+        right: 35px;
+    }
+
+    .tempdot2 {
+        position: absolute;
+        top: 91px;
+        left: 25px;
+    }
+
+}
+
+//Pricing section
+
+.pricing-section {
+    background-color: $text-color;
+    padding-top: 15px;
+}
+
+.pricing-section {
+    
+    h3 {
+        font-family: $primary-font;
+        font-weight: 100;
+        font-size: 42px; 
+        color: $primary-color;   
+        padding-bottom: 90px;
+    }
+
+    h4 {
+        font-family: $primary-font;
+        font-weight: 400;
+        font-size: 16.8px; 
+        color: $primary-color;   
+        padding-bottom: 30px; 
+    }
+
+    .price-dollar {
+        font-family: $primary-font;
+        font-weight: 700;
+        font-size: 28.01px; 
+        color: $primary-color; 
+    }
+
+    .price-num {
+        font-family: $primary-font;
+        font-weight: 700;
+        font-size: 50.04px; 
+        color: $primary-color; 
+    }
+
+    .price-day {
+        font-family: $primary-font;
+        font-weight: 400;
+        font-size: 16.8px; 
+        color: $text-color3; 
+    }
+
+    p {
+        font-family: $primary-font;
+        font-weight: 400;
+        font-size: 12.6px; 
+        color: $text-color3; 
+    }
+
+    .pricetext-bottom {
+        padding-left: 150px;
+        padding-right: 150px;
+        padding-top: 100px;
+        padding-bottom: 49px;
+    }
+
+    button {
+        margin-bottom: 73px;
+        width: 141px;
+        height: 33px;
+        border-radius: 50px;
+        font-family: $primary-font;
+        font-weight: 700;
+        font-size: 12.6px; 
+        color: $text-color; 
+    }
+
+    li {
+        font-family: $primary-font;
+        font-weight: 400;
+        font-size: 12.6px; 
+        color: $text-color3;  
+    }
+
+    .price-list {
+        line-height: 10px;
+    }
+
+    .price-plans {
+        box-shadow: 0px 0px 30px 10px #f1f2f3;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        margin-right: 40px;
+        margin-left: 40px;
+    }
+}
+
+//Footer section
+
+.footer-section {
+    background-color: $primary-color;
+    font-family: $primary-font;
+    font-weight: 400;
+    font-size: 12.6px; 
+    color: $text-color3;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    padding-right: 200px;
+    padding-left: 200px;
+}
+
+.footer-section {
+    ul {
+        list-style-type: none;
+    }
+
+    li, a {
+        display: inline-block;
+        padding-right: 20px;
+    }
+
+    i {
+        padding-left: 15px;
+    }
+}
+
+.footer-section .coltext-left {
+    float: left;
+}
+
+.footer-section .coltext-right {
+    float: right;
+}
+
+

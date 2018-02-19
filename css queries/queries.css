@@ -1,0 +1,565 @@
+
+/* Extra small devices (portrait phones, less than 300px) */
+@media (max-width: 370px) and (min-width: 0) {
+
+    .navbar-brand{
+        text-align: center;
+        padding-left: 170px;
+    }
+
+    .navbar .collapse{
+        left: 90px;
+    }
+
+    .homefront-cont {
+        left: -80px;
+    }
+    
+    .navbar-toggler{
+        margin-top: -45px;
+        margin-left: 70px;
+        background-color: #f6f7fa;
+        border-radius: 50px;
+     }
+
+     .nav-link .btn-primary {
+        font-size: 11px;
+        width: 60px;
+        height: 30px;
+    }
+
+     .nav-link {
+        font-size: 11px;
+    }
+     
+     .navbar-nav {
+         padding-top: 75px;
+     }
+
+     .dashboard img {
+         margin-top: 60px;
+     }
+
+    .home-text .home-heading{
+        font-size: 20px;
+    }
+
+    .home-text .home-subheading{
+        font-size: 15px;
+    }
+
+    .home-text button{
+        width: 120px;
+        height: 30px;
+        font-size: 12.6px;
+    }
+
+    .icon-section {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+    .icon-section button {
+        width: 130px;
+        height: 30px;
+        font-size: 12.6px;
+        margin-top: 25px;
+        margin-bottom: 20px;
+    }
+
+    .drag-section {
+        padding-bottom: 60px;
+    }
+
+    .dragfront h2 {
+        font-size: 18px;
+    }
+
+    .dragfront .spanarrow {
+        padding-left: 10px;
+    }
+
+    .dragfront h3 {
+        font-size: 30px; 
+    }
+
+    .dragfront p {
+        font-size: 12px;   
+    }
+
+    .dragfront .drag-drop-text{
+        padding-left: 0px;
+        padding-bottom: 9px;
+    }
+
+    .drag-content {
+        padding-top: 15px;
+    }
+
+    .drop-here {
+        padding-right: 210px;
+        padding-top: 30px;
+    }
+
+    .drag-arrows {
+        left: -44px;
+    }
+
+    .template-section h3 {
+        font-size: 25px; 
+        padding-bottom: 20px;
+    }
+
+    .template-section .tempdot1 {
+        top: 47px;
+    }
+
+    .template-section .tempdot2 {
+        top: 46px;
+    }
+
+    .template-section .temp-text2 {
+        padding-right: 0px;
+        color: black;
+    }
+
+    .template-section .text-left {
+        top: -65px;
+    }
+
+    .template-section .text-right {
+        padding-top: 16px;
+    }
+
+    .template-section .temp-text3 {
+        padding-left: 18px;
+        color: black;
+    }
+
+    .template-section .temp-text1 {
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+
+    .pricing-section h3 {
+        font-size: 30px;
+        padding-bottom: 50px;
+    }
+
+    .pricing-section .pricetext-bottom {
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    .pricing-section h4 {
+        font-size: 14px;
+    }
+
+    .pricing-section .price-dollar {
+        font-size: 20px;
+    }
+
+    .pricing-section .price-num {
+        font-size: 40px;
+    }
+
+    .pricing-section button {
+        margin-bottom: 50px;
+    }
+
+    .footer-section {
+        padding-left: 60px;
+        padding-right: 0px;
+        height: 140px;
+    }
+
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575px) and (min-width: 371px) {
+
+    .navbar-brand{
+        text-align: center;
+        padding-left: 170px;
+    }
+
+    .navbar .collapse{
+        left: 90px;
+    }
+
+    .homefront-cont {
+        left: -80px;
+    }
+    
+    .navbar-toggler{
+        margin-top: -45px;
+        margin-left: 70px;
+        background-color: #f6f7fa;
+        border-radius: 50px;
+     }
+
+     .nav-link .btn-primary {
+        font-size: 11px;
+        width: 60px;
+        height: 30px;
+    }
+
+     .nav-link {
+        font-size: 11px;
+    }
+     
+     .navbar-nav {
+         padding-top: 75px;
+     }
+
+    .home-text .home-heading{
+        font-size: 25px;
+    }
+
+    .home-text .home-subheading{
+        font-size: 18px;
+    }
+
+    .home-text button{
+        width: 135px;
+        height: 33px;
+        font-size: 12.6px;
+    }
+
+    .icon-section button {
+        width: 130px;
+        height: 30px;
+        font-size: 12.6px;
+        margin-top: 25px;
+        margin-bottom: 20px;
+    }
+
+    .dragfront h2 {
+        font-size: 18px;
+    }
+
+    .dragfront .spanarrow {
+        padding-left: 10px;
+    }
+
+    .dragfront h3 {
+        font-size: 35px; 
+    }
+
+    .dragfront p {
+        font-size: 12px;   
+    }
+
+    .dragfront .drag-drop-text{
+        padding-left: 0px;
+        padding-bottom: 9px;
+    }
+
+    .drag-content {
+        padding-top: 15px;
+    }
+
+    .drop-here {
+        padding-right: 210px;
+        padding-top: 30px;
+    }
+
+    .drag-arrows {
+        left: -44px;
+    }
+
+    .template-section h3 {
+        font-size: 30px; 
+    }
+
+    .template-section .temp-text2 {
+        padding-right: 70px;
+    }
+
+    .template-section .text-left {
+        top: -20px;
+    }
+
+    .template-section .temp-text3 {
+        padding-left: 122px;
+    }
+
+    .template-section .temp-text1 {
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+
+    .pricing-section h3 {
+        font-size: 30px;
+        padding-bottom: 50px;
+    }
+
+    .pricing-section .pricetext-bottom {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .pricing-section h4 {
+        font-size: 14px;
+    }
+
+    .pricing-section .price-dollar {
+        font-size: 20px;
+    }
+
+    .pricing-section .price-num {
+        font-size: 40px;
+    }
+
+    .footer-section {
+        padding-left: 0px;
+        padding-right: 0px;
+        height: 120px;
+    }
+
+    .footer-section .coltext-left {
+        float: left;
+    }
+    
+    .footer-section .coltext-right {
+        float: right;
+    }
+
+}
+
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767px) and (min-width: 576px) {
+
+    .navbar-brand{
+        text-align: center;
+        padding-left: 170px;
+    }
+
+    .navbar .collapse{
+        left: 22px;
+    }
+
+    .homefront-cont {
+        left: -80px;
+    }
+    
+    .navbar-toggler{
+        margin-top: -45px;
+        margin-left: 0px;
+        background-color: #f6f7fa;
+        border-radius: 50px;
+     }
+     
+     .navbar-nav {
+         padding-top: 75px;
+     }
+
+    .home-text .home-heading{
+        font-size: 35px;
+    }
+
+    .home-text .home-subheading{
+        font-size: 20px;
+    }
+
+    .home-text button{
+        width: 135px;
+        height: 33px;
+        font-size: 12.6px;
+    }
+
+    .dragfront h2 {
+        font-size: 18px;
+    }
+
+    .dragfront .spanarrow {
+        padding-left: 10px;
+    }
+
+    .dragfront h3 {
+        font-size: 35px; 
+    }
+
+    .dragfront p {
+        font-size: 12px;   
+    }
+
+    .dragfront .drag-drop-text{
+        padding-left: 0px;
+        padding-bottom: 9px;
+    }
+
+    .drag-content {
+        padding-top: 15px;
+    }
+
+    .drop-here {
+        padding-right: 210px;
+        padding-top: 30px;
+    }
+
+    .drag-arrows {
+        left: -44px;
+    }
+
+    .template-section h3 {
+        font-size: 35px; 
+    }
+
+    .template-section .temp-text2 {
+        padding-right: 70px;
+    }
+
+    .template-section .text-left {
+        top: -38px;
+        left: -33px;
+    }
+
+    .template-section .temp-text3 {
+        padding-left: 122px;
+    }
+
+    .template-section .temp-text1 {
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+
+    .pricing-section h3 {
+        font-size: 35px;
+    }
+
+    .pricing-section .pricetext-bottom {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .coltext-right {
+        float: right;
+    }
+
+    .footer-section {
+        padding-left: 0px;
+        padding-right: 0px;
+        height: 120px;
+    }
+
+    .footer-section .coltext-left {
+        float: left;
+    }
+    
+    .footer-section .coltext-right {
+        float: right;
+    }
+
+    .dotted-drop {
+        border: #8492af dotted 1px;
+        padding-top:0px;
+        margin-left: 0px;
+        margin-bottom:0px;
+        margin-top: 10px;
+    }
+
+}
+
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 991px) and (min-width: 768px) {
+
+    .navbar-brand{
+        text-align: center;
+        padding-left: 170px;
+    }
+
+    .navbar .collapse{
+        left: 22px;
+    }
+
+    .homefront-cont {
+        left: -80px;
+    }
+    
+    .navbar-toggler{
+        margin-top: -45px;
+        margin-left: 0px;
+        background-color: #f6f7fa;
+        border-radius: 50px;
+     }
+     
+     .navbar-nav {
+         padding-top: 75px;
+     }
+
+    .home-text .home-heading{
+        font-size: 35px;
+    }
+
+    .home-text .home-subheading{
+        font-size: 20px;
+    }
+
+    .home-text button{
+        width: 135px;
+        height: 33px;
+        font-size: 12.6px;
+    }
+
+    .dragfront h2 {
+        font-size: 18px;
+    }
+
+    .dragfront .spanarrow {
+        padding-left: 10px;
+    }
+
+    .dragfront h3 {
+        font-size: 35px; 
+    }
+
+    .dragfront p {
+        font-size: 12px;   
+    }
+
+    .dragfront .drop-here {
+        padding-left: 100px;
+    }
+
+    .template-section h3 {
+        font-size: 35px; 
+    }
+
+    .template-section .temp-text2 {
+        padding-right: 148px;
+    }
+
+    .template-section .text-left {
+        top: -38px;
+        left: -33px;
+    }
+
+    .template-section .temp-text3 {
+        padding-left: 122px;
+
+    }
+
+    .pricing-section h3 {
+        font-size: 35px;
+    }
+
+    .footer-section {
+        padding-left: 60px;
+        padding-right: 0px;
+    }
+
+    .footer-section .coltext-left {
+        float: left;
+    }
+    
+    .footer-section .coltext-right {
+        float: right;
+    }
+
+/* Large devices (desktops, less than 1200px) */
+@media (max-width: 1199px) {
+
+}
